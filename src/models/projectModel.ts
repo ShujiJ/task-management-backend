@@ -17,7 +17,7 @@ class Project
   public id!: number;
   public name!: string;
   public readonly createdAt?: Date;
-  public readonly updateAT?: Date;
+  public readonly updatedAT?: Date;
 }
 Project.init(
   {
