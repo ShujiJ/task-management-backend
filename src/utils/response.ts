@@ -18,3 +18,6 @@ export const errorResponse = (
     ...(process.env.NODE_ENV === "development" && { error }),
   });
 };
+
+
+export const err= (res:any,message:"Something went wrong ",error?:any,)=>{}
